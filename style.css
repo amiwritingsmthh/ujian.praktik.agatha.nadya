@@ -1,0 +1,73 @@
+.web-header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+}
+.menu-button{
+    border: none;
+    margin: auto;
+    height: 5vh;
+    width: 7vw;
+    background-color: hwb(6 45% 2%);
+    font-weight: bold;
+    font-family: "Poppins";
+    border-radius: 7px;
+}
+
+.web-content{
+    height: 100vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-1{
+    height: 2vh;
+    width: 100vw;
+    padding: 10vh;
+    margin: auto;
+    border-radius: 3vw;
+    border: 1vh solid salmon;
+    display: block;
+}
+
+.web-content-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 30rem ;
+    border: none;
+    display: grid;
+    place-items: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,15);
+    margin: 0.3rem;
+    border-radius: 1rem;
+    font-family: "Poppins";
+}
+
+.username{
+    padding: 0.7rem;
+    width: 15rem;
+    border:0.1rem solid black;
+    resize: none;
+    box-shadow: bisque,burlywood;
+    border-radius: 2rem;
+}
+.password{
+    padding: 0.7rem;
+    width: 15rem;
+    border:0.1rem solid black;
+    resize: none;
+    box-shadow: rgba(0,0,0,0.35), 0em 5em 25em;
+    border-radius: 2rem;
+}
+
+.button-alignment{
+    display: flex;
+    flex-direction: row;
+}
